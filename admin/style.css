@@ -80,7 +80,7 @@ a{
 body{
     margin: 0;
     /* background-color: lightblue; */
-    background:no-repeat  url('http://localhost/vms/img/pacify.webp');
+    background:no-repeat  url('img/pacify.webp');
     background-size: cover;
     color:white;
 }
