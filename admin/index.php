@@ -50,7 +50,7 @@
                                 if($login->rowCount()>0){
                                     if(password_verify($password, $row['password'])){
                                         $_SESSION['username']=$row['username'];
-                                        header("location: http://localhost/vms/admin/visitor_record.php");
+                                        header("location: ../visitor_record.php");
                                     }else{
                                         echo "<h4 style='color:tan;background:white;'>password or username incorrect</h4>";
                                     }

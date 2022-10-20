@@ -29,8 +29,6 @@ ul{
 li{
     display: inline;
     margin-left: 10px;
-    /* color: hotpink; */
-    /* font-size:30px; */
     text-transform: uppercase;
 }
 a{
