@@ -1,0 +1,81 @@
+body{
+            
+    background:no-repeat lightblue  url('../pacify.webp') ;
+    background-size:cover;
+    color:white;
+    margin:0px;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    color:black;
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:0px;
+
+}
+.nav{
+    margin: 0 10%;
+}
+#logo{
+    width: 200px;
+}
+ul{
+    float:right;
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+section{
+    margin: 0 10%;
+}
+table {
+    margin: 0 auto;
+    font-size: large;
+    border: 1px solid black;
+}
+h1 {
+    text-align: center;
+    /* color: #006600; */
+    color:black;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+    ' Calibri', 'Trebuchet MS', 'sans-serif';
+}
+td {
+    /* background-color: #E4F5D4; */
+    background-color: tan;
+    border: 1px solid black;
+}
+th{
+    color:white;
+}
+th,
+td {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    text-transform:uppercase;
+}
+td {
+    font-weight: lighter;
+
+}
+a{
+    text-decoration:none;
+    background:white;
+    color:black;
+    display: inline-block;
+    border-radius:5px;
+    width:100px;
+}
+.view:hover{
+    cursor: pointer;
+}
